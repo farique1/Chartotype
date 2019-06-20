@@ -27,7 +27,7 @@ After the system name there can be a multipurpose argument in the form of a sing
 ### What is needed  
 
 **Chartotype** was developed on Python 2.7 and needs:  
-- [**potrace**](http://potrace.sourceforge.net) (included)  
+- [**potrace**](http://potrace.sourceforge.net) (the `potrace` executable must be on the `Chartotype` folder)
 - The [**Pillow**](https://pillow.readthedocs.io/en/stable/#) Python library  
 - [**FontForge**](https://fontforge.github.io/en-US/)  
 
@@ -37,7 +37,7 @@ Inside the `sys` folder there must be:
 
 A bitmap font dump `.png` with the characters on a regular grid, cropped to the exact bounding size called `sysCharMap.png`  
 
-![CoCo character map](https://github.com/farique1/Chartotype/blob/master/CoCoCharMap.png?raw=true)  
+![CoCo character map](https://github.com/farique1/Chartotype/blob/master/CoCo/CoCoCharMap.png?raw=true)  
 
 A *unicode* encoded text file following the bitmap character sequence called `sysCharMap.txt`  
 ```
