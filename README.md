@@ -47,15 +47,15 @@ A *unicode* encoded text file following the bitmap character sequence called `sy
 Also in this folder there must be a file called `sysChartotype.ini` (copy one of the examples) with the following content:  
 
 `[BITMAP]` Section with information about the bitmap cropping and `.bmp` and `.svg` saving settings.  
-`char_width = ` `NUMBER` The characters horizontal size in pixels.  
-`char_height = ` `NUMBER` The characters vertical size in pixels.  
-`trim_width = ` `NUMBER` An horizontal crop factor (in pixels, from the right) for the character (ie. on MSX screen 0 mode the characters are 6x8 versions cropped from the 8x8 originals. The same 8x8 characters bitmap can be used to generate both sets)  
-`trim_height = ` `NUMBER` Same as above but vertical (from the bottom)  
-`resize_factor = ` `NUMBER` A factor to scale the bitmap for better vector interpretation. `8` works well.  
-`invert_luma = ` `BOOLEAN` **Chartotype** tries to distinguish between the foreground and background color to generate a back and white `.bmp` with the font in black even on systems where the font is lighter than the background. However, If the colors are still inverted change this to `True` otherwise use `False`  
+`char_width =` `NUMBER` The characters horizontal size in pixels.  
+`char_height =` `NUMBER` The characters vertical size in pixels.  
+`trim_width =` `NUMBER` An horizontal crop factor (in pixels, from the right) for the character (ie. on MSX screen 0 mode the characters are 6x8 versions cropped from the 8x8 originals. The same 8x8 characters bitmap can be used to generate both sets)  
+`trim_height =` `NUMBER` Same as above but vertical (from the bottom)  
+`resize_factor =` `NUMBER` A factor to scale the bitmap for better vector interpretation. `8` works well.  
+`invert_luma =` `BOOLEAN` **Chartotype** tries to distinguish between the foreground and background color to generate a back and white `.bmp` with the font in black even on systems where the font is lighter than the background. However, If the colors are still inverted change this to `True` otherwise use `False`  
 
 `[FONT]` Section with configuration for the export font file .  
-`glyph_width = ` `NUMBER` The width of the exported font characters (the font will be monospaced).  
+`glyph_width =` `NUMBER` The width of the exported font characters (the font will be monospaced).  
 `ascent =` `NUMBER` The capital letter height of the output font. (To help the calculation this number can be on the format `NUMBER - NUMBER`, the first number being the full font height and the second being the `descent`)  
 `descent =` `NUMBER` The portion below the font baseline (the lower part of the lowercase "g" for instance)  
 
