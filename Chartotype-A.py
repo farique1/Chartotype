@@ -200,7 +200,7 @@ for y, x in product(range(0, image_y, char_height), range(0, image_x, char_width
     img_crop = img_crop.convert('L').point(black_white, mode='1')
     img_crop = img_crop.resize(((char_width - trim_width) * resize_factor, (char_height - trim_height) * resize_factor))
     img_crop.save(bmp_folder + str(char_unicode) + '.bmp')
-    system('./potrace-1.15.mac-x86_64/potrace ' + bmp_folder + str(char_unicode) + '.bmp -o ' + svg_folder + str(char_unicode) + '.svg -z left -s')
+    system('./potrace ' + bmp_folder + str(char_unicode) + '.bmp -o ' + svg_folder + str(char_unicode) + '.svg -z left -s')
     number += 1
 
 if verbose == 1:
