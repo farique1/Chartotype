@@ -4,6 +4,7 @@
 """
 Chartotype-A v1.0
 Convert bitmap font dumps into SVG files to be loaded into FontForge with Chartotype-B
+https://github.com/farique1/Chartotype
 """
 from sys import argv
 from sys import stdout
