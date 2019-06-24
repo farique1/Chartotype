@@ -28,7 +28,7 @@ import fontforge
 from os import listdir
 from shutil import rmtree
 font = fontforge.font()
-font.copyright = r'Created with Chartotype, potrace and FontForge 2.0 - https://github.com/farique1'
+font.copyright = r'Created with Chartotype, potrace and FontForge 2.0 - https://github.com/farique1/Chartotype'
 font.os2_vendor = '    '
 font.os2_winascent_add = 0
 font.os2_windescent_add = 0
