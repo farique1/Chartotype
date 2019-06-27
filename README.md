@@ -8,6 +8,8 @@ Convert a bitmap font dump into a series of SVG files that are loaded into FontF
 
 > **Chartotype** was only tested on a Mac but should (could? would?) work on a Windows or Linux PC? Maybe? Tell me.  
 
+> Also take a look at [**Vectotype**](https://github.com/farique1/Chartotype/tree/master/Vectotype) for an Illustrator template and a standalone scripts to convert SVG files into fonts.  
+
 ## How to use  
 
 ### Running  
