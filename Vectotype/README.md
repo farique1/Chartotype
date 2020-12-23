@@ -35,7 +35,7 @@ svg_path = "/CURRENT_PATH/Vectotype/SVGs"
 #
 ...
 ```
-TrueType fonts prefer to have a size on the power of twos, usually 1024, so the sum of the `ascent` and `descent` should be this number. The `width` is be the horizontal size of the font (this will create a monospaced font, obviously).  
+TrueType fonts prefer to have a size on the power of twos, usually 1024, so the sum of the `ascent` and `descent` should be this number. The `width` is the horizontal size of the font (this will create a monospaced font, obviously).  
 
 The `os2` settings can be used to change the vertical (line) spacing without altering the fonts gometry. They can be left as `None`.  
 
